@@ -45,6 +45,7 @@ namespace Descodificador
             if ( Cusuario == usuario && Cpass == pass)
             {
                 Form2 des = new Form2();
+                this.Hide();
                 des.Show();
             }
             else
